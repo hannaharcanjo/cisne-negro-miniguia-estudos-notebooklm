@@ -20,3 +20,17 @@ Como objetivos específicos, busca-se:
 * Refletir sobre os limites das previsões baseadas em dados e experiências passadas;
 * Compreender o papel de eventos extremos na economia, nas finanças e em outros contextos de tomada de decisão;
 * Explorar como os conceitos apresentados podem ser aplicados à análise de situações reais e à tomada de decisões em ambientes de incerteza.
+
+### Cicatriz 1 — Controle de extrapolações e grounding
+
+Na etapa de aplicação do conceito de Cisne Negro ao contexto econômico e financeiro, a primeira resposta apresentou exemplos e relações conceituais de forma mais abrangente. Para verificar se todo o conteúdo estava efetivamente fundamentado nas fontes selecionadas, foi elaborado um segundo prompt restringindo explicitamente a resposta aos exemplos presentes no notebook e exigindo a identificação das respectivas fontes.
+
+Após a reformulação, foi realizada uma auditoria das afirmações, classificando cada uma como:
+
+* **Afirmação direta:** informação explicitamente apresentada nas fontes;
+* **Interpretação/inferência:** conexão analítica construída a partir dos conceitos presentes nas fontes;
+* **Não confirmada:** informação que não poderia ser verificada nos materiais disponíveis.
+
+A auditoria identificou que os exemplos econômicos e financeiros utilizados estavam sustentados pelas fontes, mas apontou pequenas inferências conceituais nos trechos relacionados à previsibilidade retrospectiva. Esses trechos foram posteriormente reescritos para reduzir extrapolações e manter maior fidelidade ao conteúdo original.
+
+Esse processo evidenciou a importância de não considerar uma resposta aparentemente coerente como necessariamente fundamentada. A combinação entre **restrição explícita das fontes → auditoria das afirmações → classificação entre fato e interpretação → correção dos trechos problemáticos** foi utilizada como mecanismo de controle da qualidade das respostas produzidas pelo NotebookLM.
